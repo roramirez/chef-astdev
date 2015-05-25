@@ -9,8 +9,7 @@ default['astdev']['user'] = "vagrant"
 
 # repository astdev
 default['astdev']['repository'] = "http://gerrit.asterisk.org/asterisk"
-default['astdev']['repo_path'] = "/vagrant/asterisk"
-#default['astdev']['repo_path'] = "/home/#{default['astdev']['user']}/asterisk"
+default['astdev']['repo_path'] = "/home/#{default['astdev']['user']}/asterisk"
 default['astdev']['branch'] = "master"
 
 # packages
