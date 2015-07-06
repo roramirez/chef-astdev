@@ -21,8 +21,8 @@ Use
 ```
 * Install librarian-chef
 ```sh
-    gem install bundler
-    gem install librarian-chef
+    sudo gem install bundler
+    sudo gem install librarian-chef
 ```
 
 * Do you need installed a nfs-server in your machine
@@ -30,7 +30,7 @@ Use
   $ sudo aptitude install nfs-kernel-server nfs-common portmap
 ```
 
-## Run new machine 
+## Run new machine
 ```
   $ vagrant up
 ```
