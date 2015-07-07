@@ -25,6 +25,11 @@ Use
     sudo gem install librarian-chef
 ```
 
+* Get Chef Cookbooks
+```
+  librarian-chef install
+```
+
 * Do you need installed a nfs-server in your machine
 ```
   $ sudo aptitude install nfs-kernel-server nfs-common portmap
