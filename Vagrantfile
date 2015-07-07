@@ -34,7 +34,7 @@ Vagrant.configure("2") do |config|
       "oh_my_zsh" => {
         "users" => [
           :login   => 'vagrant',
-          :theme   => 'gozilla',
+          :theme   => 'afowler',
           :plugins => ['git']
         ]
       }
