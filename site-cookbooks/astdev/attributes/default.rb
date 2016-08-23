@@ -6,6 +6,7 @@
 
 # user
 default['astdev']['user'] = "vagrant"
+default['astdev']['home'] = "/home/#{default['astdev']['user']}"
 
 # repository astdev
 default['astdev']['repository'] = "http://gerrit.asterisk.org/asterisk"
