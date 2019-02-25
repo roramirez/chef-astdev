@@ -11,7 +11,7 @@ end
 
 Vagrant.configure("2") do |config|
   config.vm.box = "MyBoxDebian8"
-  config.vm.box_url = "http://www.rodrigoramirez.com/boxes/vagrant-debian-jessie.box"
+  config.vm.box_url = "https://rodrigoramirez.com/boxes/vagrant-debian-jessie.box"
   config.vm.hostname = "astdev"
 
   config.vm.network "private_network", ip: "192.168.10.181"
